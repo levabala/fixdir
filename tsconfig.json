@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"],
+      "src/*": ["src/*"]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es6",
+    "outDir": "./"
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}

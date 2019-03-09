@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "defaultSeverity": "error",
+  "rules": {
+    "no-console": false,
+    "curly": [true, "as-needed"],
+    "no-debugger": false,
+    "jsx-boolean-value": false
+  },
+  "jsRules": {
+    "no-console": false,
+    "curly": [true, "as-needed"],
+    "no-debugger": false,
+    "jsx-boolean-value": false
+  }
+}
